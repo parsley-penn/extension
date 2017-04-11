@@ -1,0 +1,38 @@
+nav {
+	border-bottom: 1px solid #CCFFEE;
+	background: #3CC47C; /* #57BC90 */
+}
+
+.row {
+	display: flex; /* Force columns to have the same height */
+}
+
+/* ***************** COLOR RULES ******************** */
+
+.electric {
+	background: #3CC47C;
+}
+
+.forest {
+	background: #16723f !important;
+}
+
+.tan {
+	background: #E9C893;
+}
+
+.tan-text {
+	color: #E9C893;
+}
+
+.tin {
+	background: #828081;
+}
+
+.tabs .indicator {
+	background-color: #E9C893 !important;
+}
+
+.tab {
+	color: #E9C893 !important;
+}
