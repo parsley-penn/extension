@@ -1,0 +1,378 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mer",
+				"mercury_api_key"
+			],
+			[
+				"requs",
+				"request_url"
+			],
+			[
+				"page",
+				"pageText"
+			],
+			[
+				"height",
+				"min-height"
+			],
+			[
+				"request",
+				"request_url"
+			],
+			[
+				"mate",
+				"material-icons"
+			],
+			[
+				"get",
+				"getHTML"
+			],
+			[
+				"do",
+				"do_work"
+			],
+			[
+				"crea",
+				"CREATE"
+			],
+			[
+				"ba",
+				"background-image"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "reader.html",
+			"settings":
+			{
+				"buffer_size": 2284,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Kunapuli/Desktop/CIS 400/demo-site/index.html",
+			"settings":
+			{
+				"buffer_size": 580,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 174.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 374.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"clear",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Kunapuli/Desktop/CIS 400/parsley-extension",
+		"/Users/Kunapuli/Desktop/CIS 400/parsley-extension/css"
+	],
+	"file_history":
+	[
+		"/Users/Kunapuli/Desktop/CIS 400/Parsley Extension/css/popup.css",
+		"/Users/Kunapuli/Desktop/CIS 400/Parsley Extension/popup.html",
+		"/Users/Kunapuli/Desktop/CIS 400/Parsley Extension/css/Color Scheme Ideas.txt",
+		"/Users/Kunapuli/Desktop/CIS 400/Parsley Extension/TextExtractor.java",
+		"/Users/Kunapuli/Desktop/CIS 400/Parsley Extension/js/background.js",
+		"/Users/Kunapuli/Desktop/CIS 400/Parsley Extension/js/reader.js",
+		"/Users/Kunapuli/Desktop/CIS 400/Parsley Extension/manifest.json",
+		"/Users/Kunapuli/Desktop/CIS 400/Parsley Extension/css/color_scheme_ideas.txt",
+		"/Users/Kunapuli/Desktop/CIS 400/Parsley Extension/scripts/background.js",
+		"/Users/Kunapuli/Desktop/CIS 400/Parsley Extension/background.js",
+		"/Users/Kunapuli/Desktop/CIS 400/Parsley Extension/style/popup.css",
+		"/Users/Kunapuli/Desktop/CIS 400/Parsley Extension/popup.js",
+		"/Users/Kunapuli/Desktop/CIS 511/CIS 511 Homework 3.tex",
+		"/Users/Kunapuli/Desktop/CIS 371/lab2_files/include/lc4_decoder.v",
+		"/Users/Kunapuli/Desktop/CIS 400/SentenceParser/sentence_parser.py",
+		"/Users/Kunapuli/Desktop/CIS 400/sentence_parser.py",
+		"/Users/Kunapuli/Desktop/CIS 400/dependency_treebank/wsj_0009.dp",
+		"/Users/Kunapuli/Desktop/CIS 511/CIS 511 Homework 2.tex",
+		"/Users/Kunapuli/Desktop/CIS 400/hmm_treebank_pos_tagger/treebank.tagger.pickle",
+		"/Users/Kunapuli/Desktop/CIS 700/Recitations/Recitation 1/Rec1.ipynb",
+		"/Users/Kunapuli/Desktop/CIS 400/Chrome Extension Tutorial/popup.js",
+		"/Users/Kunapuli/Desktop/CIS 400/Chrome Extension Tutorial/popup.html",
+		"/Users/Kunapuli/Desktop/CIS 555/srch/queue.txt.1",
+		"/Users/Kunapuli/Desktop/CIS 555/srch/queue.txt.0",
+		"/Users/Kunapuli/Desktop/CIS 555/srch/robotInfo.txt.0",
+		"/Users/Kunapuli/Desktop/CIS 555/srch/queueOut.txt.1",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 5/hw5-6.xq",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 5/hw5-5.xq",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 5/Anish's Stuff/HW5/hw5-5.xq",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 5/hw5-4.xq",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 5/Anish's Stuff/HW5/hw5-3.xq",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 5/hw5-2b.xq",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 5/hw5-3.xq",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 5/hw5-2a.xq",
+		"/Users/Kunapuli/Downloads/ayu-2.0.1/ayu-mirage.sublime-theme",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 5/yahoo.xml",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 5/yahoo.xsd",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 5/yahoo.dtd",
+		"/Users/Kunapuli/.oh-my-zsh/plugins/osx/README.md",
+		"/Users/Kunapuli/Desktop/CIS 550/Project/Plays_For.sql",
+		"/Users/Kunapuli/Desktop/CIS 550/Project/Coaches.sql",
+		"/Users/Kunapuli/Desktop/CIS 550/Project/Coach.sql",
+		"/Users/Kunapuli/Desktop/CIS 550/Project/Has_Team.sql",
+		"/Users/Kunapuli/Desktop/CIS 550/Project/Competes_In.sql",
+		"/Users/Kunapuli/Desktop/CIS 550/Project/Player.sql",
+		"/Users/Kunapuli/.oh-my-zsh/plugins/git/README.md",
+		"/Users/Kunapuli/Desktop/CIS 550/Project/FifaParser.java",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 1/Person.sql",
+		"/FifaParser.java",
+		"/Users/Kunapuli/Desktop/CIS 555/Homework 2 Milestone 2 EBNF",
+		"/Users/Kunapuli/Desktop/CIS 550/Project/Database DDL.txt",
+		"/Users/Kunapuli/Desktop/CIS 541/Homework 5/main.cpp",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 3/hw3-13.mongo",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 3/hw3-11.mongo",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 3/hw3-12.mongo",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 2/hw2-2.sql",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 1/Submission/hw1-8.sql",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 2/MyAppNode/app.js",
+		"/Users/Kunapuli/Desktop/CIS 550/Homework 2/HW2 3-5.tex",
+		"/Users/Kunapuli/Desktop/CIS 541/Homework_3.tex",
+		"/Users/Kunapuli/Desktop/CIS 550/hw1-1.txt",
+		"/Users/Kunapuli/Desktop/CIS 550/hw1-15.txt",
+		"/Users/Kunapuli/Desktop/CIS 550/hw1-11.sql",
+		"/Users/Kunapuli/Desktop/CIS 550/hw1-7.sql",
+		"/Users/Kunapuli/Desktop/Code/VidFusion/app/css/style.css",
+		"/Users/Kunapuli/Desktop/Code/VidFusion/app/app.js",
+		"/Users/Kunapuli/Desktop/Code/VidFusion/views/login.html",
+		"/Users/Kunapuli/Desktop/Code/VidFusion/views/index.html",
+		"/Users/Kunapuli/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Kunapuli/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"continent",
+			"ptr",
+			"finalizeFunc"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "reader.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326,
+								326
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 81.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/Kunapuli/Desktop/CIS 400/demo-site/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "parsley.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 179.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

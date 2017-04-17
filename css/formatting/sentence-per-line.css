@@ -1,0 +1,20 @@
+/************* FORMATTING RULES **************/
+/* Every "S" on a newline */
+:not(.label-S) > .label-S:before {
+  content: "\A";
+  white-space: pre-line;
+}
+/* Don't put a newline before the first "S" */
+.formattedText > .label-S:first-child:before {
+  content: "";
+  white-space: pre-line;
+}
+/*.label-PP {
+  background-color: rgba(200,200,200,.2);
+  border-radius: 5px;
+  transition-duration: .5s;
+  transition-property: color, background-color;
+  &:hover {
+    background-color: rgba(200,0,0,.2);
+  }
+}*/

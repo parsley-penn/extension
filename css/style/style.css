@@ -1,0 +1,36 @@
+/************* BASE FORMATTING **************/
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+.container {
+  padding: 0.5em;
+}
+.container .formattedText {
+  font-family: 'EB Garamond', serif;
+  font-size: 22pt;
+  line-height: 1.3em;
+  text-align: justify;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.container .formattedText .word {
+  /* Add spacing using padding*/
+  padding: 0 .05em;
+  box-sizing: border-box;
+}
+.container .formattedText .word::after {
+  /* add a space between all words for line breaks */
+  font-size: 0;
+  content: " ";
+}
+.container .formattedText .word.label-period,
+.container .formattedText .word.label-comma,
+.container .formattedText .word.label-POS,
+.container .formattedText .word.label-right-double-quote {
+  padding-left: 0;
+}
+.container .formattedText .word.label-left-double-quote {
+  padding-right: 0;
+}
