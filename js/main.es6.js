@@ -122,18 +122,20 @@ function getQueryMap(query) {
 
 jQuery(function ($) {
   // Load text from JSON
-  var query = getQueryMap(window.location.search.substring(1));
+  //var query = getQueryMap(window.location.search.substring(1));
 
-  var text = query['text'];
+  var text = "wsj_0077_machine";
 
   $.getJSON('texts/' + text + '.json').done(function (data) {
-    ReactDOM.render(React.createElement(FormattedText, { tree: data }), document.getElementById('root'));
+    console.log("Rendering DOM");
+    alert("Here");
+    ReactDOM.render(React.createElement(FormattedText, { tree: data }), document.getElementById('text-area'));
   }).fail(function () {
-    console.error('could not load json');
+    console.error('Could not load JSON');
   });
 
   // Load formatting dynamically
-  var formatting = query['formatting'];
+  var formatting = "dark"; // Automatically choose dark
 
   $('head').append('<link rel="stylesheet" type="text/css" href="css/formatting/' + formatting + '.css">');
 

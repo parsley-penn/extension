@@ -15,6 +15,6 @@ $(document).ready(function(){
 	});
 
 	chrome.runtime.getBackgroundPage(function (backgroundPage) {
-    	alert(backgroundPage.syntax_tree);
+    	console.log(backgroundPage.syntax_tree);
 	});
 });

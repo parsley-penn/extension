@@ -6,21 +6,36 @@
 	<link type="text/css" rel="stylesheet" href="css/reader.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="css/style/style.css">
-	<script type="text/javascript" src="js/main.es6.js"></script>
 </head>
-<body class="electric">
+<body class="dark-background">
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/react/15.5.4/react-with-addons.js"></script>
+  	<script src ="https://cdnjs.cloudflare.com/ajax/libs/react/15.5.4/react-dom.min.js"></script>
     <script type="text/javascript" src="js/reader.js"></script>
+    <script type="text/javascript" src="js/main.es6.js"></script>
    
-	<nav class="z-depth-5 forest">
+	<!--nav class="z-depth-5 forest">
 		<div class="nav-wrapper">
 			<a href="#!" class="brand-logo center">PARSLEY</a>
 			<ul id="nav-mobile" class="left hide-on-med-and-down">
 		    	<li><a href="#" id="sidebar-toggle"><i class="material-icons">menu</i></a></li>
 		    </ul>
 		</div>
-	</nav>
+	</nav-->
+
+
+    <div class="navbar-fixed">
+        <nav class="z-depth-5">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo center">PARSLEY</a>
+				<ul id="nav-mobile" class="left hide-on-med-and-down">
+			    	<li><a href="#" id="sidebar-toggle"><i class="material-icons">menu</i></a></li>
+			    </ul>
+            </div>
+        </nav>
+    </div>
+
 
 	<div class="container">
 		<div class="row">
@@ -54,7 +69,7 @@
 		<div class="col s12" id="content-area">
 			<div class="container">
 				<div class="row valign-wrapper">
-					<div class="col s12 valign" style="border: 1px solid black; min-height: 100px">
+					<div class="col s12 valign" id="text-area">
 						
 					</div>
 				</div>

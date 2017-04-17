@@ -13,6 +13,14 @@ nav {
 	background: #3CC47C;
 }
 
+.dark-background {
+	background: #002B36;
+}
+
+.nav-wrapper {
+	background: linear-gradient(to bottom, #16723f 1%,#002b36 100%);
+}
+
 .forest {
 	background: #16723f !important;
 }
