@@ -127,7 +127,7 @@ jQuery(function ($) {
   var text = query['text'];
 
   $.getJSON('texts/' + text + '.json').done(function (data) {
-    ReactDOM.render(React.createElement(FormattedText, { tree: data }), document.getElementById('content-area'));
+    ReactDOM.render(React.createElement(FormattedText, { tree: data }), document.getElementById('root'));
   }).fail(function () {
     console.error('could not load json');
   });
@@ -136,5 +136,23 @@ jQuery(function ($) {
   var formatting = query['formatting'];
 
   $('head').append('<link rel="stylesheet" type="text/css" href="css/formatting/' + formatting + '.css">');
+
+  /*
+   * TODO:
+   * 1) Get syntax tree from background page
+   * 2) Render ReactDOM based on syntax tree, add as child to "content-area" element
+   * 3) Automatically add dark formatting
+   */
+
+  /*
+  chrome.runtime.getBackgroundPage(function (backgroundPage) {
+      var formatting = "dark"; // Automatically load dark formatting
+      $('head').append('<link rel="stylesheet" type="text/css" href="css/formatting/' + formatting + '.css">');
+
+      var tree = backgroundPage.syntax_tree;
+
+      ReactDOM.render(React.createElement(FormattedText, { tree: tree }), document.getElementById('content-area'));
+  });
+  */
 });
 //# sourceMappingURL=main.es6.js.map
