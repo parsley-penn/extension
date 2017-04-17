@@ -127,7 +127,7 @@ jQuery(function ($) {
   var text = query['text'];
 
   $.getJSON('texts/' + text + '.json').done(function (data) {
-    ReactDOM.render(React.createElement(FormattedText, { tree: data }), document.getElementById('root'));
+    ReactDOM.render(React.createElement(FormattedText, { tree: data }), document.getElementById('content-area'));
   }).fail(function () {
     console.error('could not load json');
   });
