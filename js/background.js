@@ -1,4 +1,4 @@
-var syntax_tree = {};
+var syntax_tree = [];
 
 chrome.browserAction.onClicked.addListener(function(activeTab) {
 	chrome.tabs.query({"active": true, "lastFocusedWindow": true}, function(tabs) {
@@ -14,12 +14,79 @@ chrome.browserAction.onClicked.addListener(function(activeTab) {
 		    contentType: "application/json",
 		    beforeSend: function(xhr) {
 					xhr.setRequestHeader("x-api-key", mercury_api_key);
-				},
+			},
 		    success: function(result) {
 		    		// TODO: make request to server to get syntax_tree
+		    		var text = $(result.content).text();
+		    		alert(text.length);
 
-		    		chrome.tabs.create({ url: "../reader.html", active: true });
+		    		
+		    		var settings = {
+					  "async": true,
+					  "crossDomain": true,
+					  "url": "http://localhost:8080/parse",
+					  "method": "POST",
+					  "headers": {
+					  	"content-type": "plain/text",
+					    "cache-control": "no-cache",
+					    "postman-token": "b7ae4b37-476c-b4b2-4690-ede2a87ec38a"
+					  },
+					  "data": text
+					}
+
+					$.ajax(settings).done(function (response) {
+						syntax_tree = response;
+						alert(JSON.stringify(response));
+						chrome.tabs.create({ url: "../reader.html", active: true });
+					});
+					
+					
+
+		    		/*
+		    		var xhr = XMLHttpRequest();
+		    		xhr.withCredentials = true;
+		    		xhr.open("POST", "http://localhost:8080/parse");
+
+		    		xhr.addEventListener(readystatechange, function() {
+						if (this.readyState == 4 && this.status == 200) {
+					       // Typical action to be performed when the document is ready:
+					       syntax_tree = this.responseText;
+					       chrome.tabs.create({ url: "../reader.html", active: true });
+					    }
+		    		});
+
+		    		xhr.onreadystatechange = function() {
+					    if (this.readyState == 4 && this.status == 200) {
+					       // Typical action to be performed when the document is ready:
+					       syntax_tree = this.responseText;
+					       chrome.tabs.create({ url: "../reader.html", active: true });
+					    }
+					};
+					xhr.send(text);
+					*/
+
+					/*
+		    		$.ajax({
+		    			url: "localhost:8080/parse",
+		    			type: "POST",
+		    			contentType: "plain/text",
+		    			data: text,
+		    			success: function(result) {
+		    				syntax_tree = result;
+		    				chrome.tabs.create({ url: "../reader.html", active: true });
+		    			}
+		    		});
+		    		*/
+
+		    		/*
+		    		$.post("/parse", text, function(tree) {
+						syntax_tree = tree;
+						chrome.tabs.create({ url: "../reader.html", active: true });
+					});
+					*/
 				}
-		 });
+		});
+
+		//chrome.tabs.create({ url: "../reader.html", active: true });
 	});
 });

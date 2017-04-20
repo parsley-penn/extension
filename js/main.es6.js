@@ -121,14 +121,15 @@ function getQueryMap(query) {
 }
 
 jQuery(function ($) {
+  
   // Load text from JSON
   //var query = getQueryMap(window.location.search.substring(1));
 
+  /*
   var text = "wsj_0077_machine";
 
   $.getJSON('texts/' + text + '.json').done(function (data) {
     console.log("Rendering DOM");
-    alert("Here");
     ReactDOM.render(React.createElement(FormattedText, { tree: data }), document.getElementById('text-area'));
   }).fail(function () {
     console.error('Could not load JSON');
@@ -138,7 +139,8 @@ jQuery(function ($) {
   var formatting = "dark"; // Automatically choose dark
 
   $('head').append('<link rel="stylesheet" type="text/css" href="css/formatting/' + formatting + '.css">');
-
+  */
+  
   /*
    * TODO:
    * 1) Get syntax tree from background page
@@ -146,15 +148,16 @@ jQuery(function ($) {
    * 3) Automatically add dark formatting
    */
 
-  /*
+  
   chrome.runtime.getBackgroundPage(function (backgroundPage) {
       var formatting = "dark"; // Automatically load dark formatting
       $('head').append('<link rel="stylesheet" type="text/css" href="css/formatting/' + formatting + '.css">');
 
       var tree = backgroundPage.syntax_tree;
+      alert(tree);
 
-      ReactDOM.render(React.createElement(FormattedText, { tree: tree }), document.getElementById('content-area'));
+      ReactDOM.render(React.createElement(FormattedText, { tree: tree }), document.getElementById('text-area'));
   });
-  */
+  
 });
 //# sourceMappingURL=main.es6.js.map
